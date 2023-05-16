@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
-import 'package:rent_a_room/screens/bottom%20nav/bottom_nav.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../themes/myColors.dart';
@@ -48,6 +47,7 @@ class LoginPage extends StatelessWidget {
                               await FacebookAuth.instance.login();
 
                           if (result.status == LoginStatus.success) {
+                            // ignore: unused_local_variable
                             final AccessToken accessToken = result.accessToken!;
                             // Use the accessToken to sign-in or get user info
                             print('Facebook login successful!');
@@ -82,6 +82,7 @@ class LoginPage extends StatelessWidget {
                             idToken: googleSignInAuthentication.idToken,
                           );
 
+                          // ignore: unused_local_variable
                           final UserCredential userCredential =
                               await FirebaseAuth.instance
                                   .signInWithCredential(credential);
@@ -113,6 +114,7 @@ class LoginPage extends StatelessWidget {
                             idToken: googleSignInAuthentication.idToken,
                           );
 
+                          // ignore: unused_local_variable
                           final UserCredential userCredential =
                               await FirebaseAuth.instance
                                   .signInWithCredential(credential);

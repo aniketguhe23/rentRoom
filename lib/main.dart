@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rent_a_room/screens/bottom%20nav/settings.dart';
-import 'package:rent_a_room/screens/login.dart';
-import 'package:rent_a_room/screens/registeration%20copy.dart';
-import 'package:rent_a_room/screens/registeration.dart';
-import 'package:rent_a_room/themes/theme.dart';
 
 import 'screens/splash.dart';
-import 'package:rent_a_room/contents.dart';
 
 void main() {
   runApp(MyApp());

@@ -4,7 +4,6 @@ import 'package:rent_a_room/screens/bottom%20nav/home.dart';
 import 'package:rent_a_room/screens/bottom%20nav/profile.dart';
 import 'package:rent_a_room/screens/bottom%20nav/settings.dart';
 import 'package:rent_a_room/screens/registeration.dart';
-import 'package:rent_a_room/screens/splash.dart';
 
 import '../../themes/myColors.dart';
 
